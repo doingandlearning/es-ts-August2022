@@ -1,3 +1,13 @@
+Kevin Cunningham - August 1st-3rd
+
+# Timings
+
+9:30  start
+11:00 coffee
+12:30 lunch
+3:00  tea
+4:30  end
+
 ## Quick Review of TypeScript
 - Review of TS
 - Using `tsc`, `ts-node` and `package.json`
