@@ -1,5 +1,8 @@
 import assert from "node:assert";
 
+// npm init -y
+// npm install @types/node
+
 // This will process a string and will capitalize the first letter of each word
 // but will make all the other letters lowercase.
 function toTitleCase() {}
