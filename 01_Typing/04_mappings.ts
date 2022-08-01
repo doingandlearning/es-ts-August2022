@@ -50,6 +50,28 @@ namespace Options_Terse {
   }>;
 
   // type OptionalOptions
-
+  type OptionalOptions<T> = { [k in keyof T]?: T[k] };
+  type Optional = OptionalOptions<{
+    material: string;
+    background: boolean;
+  }>;
   // type NullableOptions
+  type NullableOptions<T> = { [k in keyof T]: T[k] | null };
+  type Nullable = NullableOptions<Options>;
+
+  // type ReadOnlyAndNullable
+  type ReadOnlyAndNullable<T> = { readonly [k in keyof T]: T[k] | null };
+
+  type ReadonlyIplayer = Readonly<{
+    subtitle: boolean;
+    volume: number;
+  }>;
+
+  type ReadAndPick = Pick<
+    Readonly<{
+      subtitle: boolean;
+      volume: number;
+    }>,
+    "subtitle"
+  >;
 }
