@@ -1,14 +1,18 @@
 // TS interface
-interface Photo {
+export interface Photo {
   // interface is the preferred way
   albumId: number;
   id: number;
-  title?: string;
+  title: string;
   url: string;
   thumbnailUrl: string;
   attribution?: object;
   pretty?: (x?: boolean, y?: {}) => {};
 }
+
+const test = { name: "Kevin" };
+
+export default test;
 
 class Snap implements Photo {
   albumId: number;
@@ -93,5 +97,5 @@ const snap3 = {
   thumbnailUrl: "",
 };
 
-console.log(snap1.printPretty());
-console.log(snap2.printPretty());
+// console.log(snap1.printPretty());
+// console.log(snap2.printPretty());

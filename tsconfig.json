@@ -4,6 +4,8 @@
 		"lib": [
 			"DOM",
 			"ES2020"
-		]
+		],
+		"moduleResolution": "Node",
+		"resolveJsonModule": true
 	}
 }

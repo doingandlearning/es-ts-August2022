@@ -1,5 +1,5 @@
 Review Exercise 1 about 40 mins (then show-and-tell)
-================= we will conclude at 2:30
+=================
 This is a chance to work with TypeScript/ECMAScript in a mini project
 Tackle this however you like, the point is for you to explore using the tools
 You will load up some data into a type-safe structure, then (optionaly) sort the data and show slices of it
@@ -27,3 +27,4 @@ Decide on a strategy to show todos for one user, then just the un-completed jobs
 
 Consider how you could enforce the 'completed' state to be one of:
   true, false, archived, pending, deleted 
+
