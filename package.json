@@ -1,0 +1,23 @@
+{
+  "name": "es-ts_22-08august",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doingandlearning/es-ts-August2022.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doingandlearning/es-ts-August2022/issues"
+  },
+  "homepage": "https://github.com/doingandlearning/es-ts-August2022#readme",
+  "dependencies": {
+    "@types/node": "^18.6.3"
+  }
+}

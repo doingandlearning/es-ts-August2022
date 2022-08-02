@@ -7,11 +7,20 @@ import fs from "node:fs";
 // Which arguements, return types, etc would you type?
 // Look at the type definitions of the Node methods/libraries to help.
 
-function readFileThenDo(next) {
-  fs.readFile("./blah.nofile", (err, data) => {
-    next(data);
-  });
+function readFileThenDo(next: Parameters<typeof fs.readFile>[1]) {
+  fs.readFile("./blah.nofile", next);
 }
+
+// function readFileThenDo(
+//   next: (err: NodeJS.ErrnoException | Buffer) => void
+// ) {
+//   fs.readFile("./blah.nofile", (err, data) => {
+//     if (err) {
+//       next(err);
+//     }
+//     next(data);
+//   });
+// }
 
 readFileThenDo((data) => {
   console.log(data);
