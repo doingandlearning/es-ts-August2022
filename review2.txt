@@ -27,7 +27,9 @@ Handle exceptions (catch)
 type-safe the Promise
 use async/await
 
-If you like, download the JSON and do it all offline (no fetch) or try NodeFetch (look it up)
+If you like, download the JSON and do it all offline (no fetch) or try NodeFetch (look it up).
+
+As of Node 18, fetch is now in Node core so you don't need to add a 3rd party dependency like node-fetch.
 
 Optional
 ========
