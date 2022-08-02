@@ -30,6 +30,8 @@ Kevin Cunningham - August 1st-3rd
 	- Functions 
 	- Generators
 
+	- Closures
+
 ## Functional Programming
 
 - Why pure functions turn out to be a good idea
