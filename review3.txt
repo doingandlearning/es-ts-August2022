@@ -9,7 +9,7 @@ The API allows several categories of search such as people, planets, species or 
 Pass in the category and an IDs
   e.g. https://swapi.dev/api/people/1 (use back tick syntax)
 
-Show results nicely   
+Show results nicely
 
 Notes:
 - can we use an enum for the category field (or retreive from API)
